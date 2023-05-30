@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<nav>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+</nav>
+
+<br><br><br><br><br>
+
+
+
+    <div class="container" id="signup_toggle" >  
+        
+        <form class="form"  id="food-form">
+            
+            <div class="form_front">
+                <div class="form_details">Add A New Dish</div>
+                <input type="text" class="input" id="food-name" required>
+                <select  id="food-type" required class="input">
+                    <option value="fruit_vegetables">Fruit and vegetables</option>
+                    <option value="starchy_food">Starchy food</option>
+                    <option value="dairy">Dairy</option>
+                    <option value="protein">Protein</option>
+                    <option value="fat">Fat</option>
+                  </select>
+                <input type="number" id="food-price" required class="input" placeholder="Price">
+                <button class="btn" type="submit">Add</button>
+                <span class="switch">Lit's Add And enjoy 
+                    <label for="signup_toggle" class="signup_tog">
+                        Add
+                    </label>
+                </span>
+            </div>
+           
+        </form>
+
+
+        
+    </div>
+    <table id="food-table">
+        <thead>
+          <tr>
+            <th>Food ID</th>
+            <th>Food Name</th>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+      </table>
+
+
+
+   
+
+    <footer>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; Lit's make your amenu .</p>
+      </footer>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
